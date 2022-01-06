@@ -155,8 +155,23 @@ body {
 #header {
   min-height: 92px;
   max-height: 290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
 }
 
+#header div {
+  display: block;
+  max-height: 92px;
+  margin-top: auto;
+  position: relative;
+}
+
+#headerLogo {
+  max-height: 92px;
+}
 /* HEADER SECTION END */
 
 
